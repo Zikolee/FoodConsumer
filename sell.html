@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+<div class="header">
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="sell.html">Sell product</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+<a href="register.html" class="split">Sign Up</a>
+<a href="login.html" class="split2">Login</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <h1>FoodConsumer</h1>
+</div>
+
+
+<center><div class="row">
+  <div class="col-8 col-s-8">
+<div class="banner">
+    <h2>SELL YOUR FARM PRODUCT</h2>
+</div><hr>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="title"><h4>Title of Product</h4></label>
+    <input type="text" id="title" name="producttitle" placeholder="Enter product title">
+
+    <label for="lname"><h4>Description</h4></label>
+    <textarea id="description" name="description" placeholder="Enter product description.." style="height:200px"></textarea>
+
+<label for="title"><h4>Product image</h4></label>
+<p class="groove">
+<input type="file" id="myFile" name="filename" ></p>
+
+    <label for="country"><h4>Location</h4></label>
+    <select id="country" name="country">
+      <option value="australia">Nigeria</option>
+      <option value="canada">Lagos</option>
+      <option value="usa">USA</option>
+    </select>
+
+<label for="subject"><h4>Packaging Standard</h4></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <label for="subject"><h4>Shipping and payment terms</h4></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</center>
+</div>
+</div>
+
+
+
+<div class="footer">
+ <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+<p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black">Send</button>
+        </form>
+      </div>
+<div class="w3-col s4">
+        <h4>About</h4>
+        <p><a href="#">About us</a></p>
+        <p><a href="sell.html">Sell product</a></p>
+        <p><a href="#">Find store</a></p>
+        <p><a href="#">Shipment</a></p>
+        <p><a href="#">Payment</a></p>
+        <p><a href="#">Return policy</a></p>
+        <p><a href="#">Help</a></p>
+      </div>
+<div class="w3-col s4 w3-justify">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> FoodConsumer</p>
+        <p><i class="fa fa-fw fa-phone"></i> 09027388217</p>
+        <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Bank Transfer</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+<i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+      </div>
+    </div>
+</footer>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <p> <p>All right reserved @ZikoleeTech </p></p>
+</div>
+
+
+<script src="topnav.js">
+</script>
+<script src="scroll.js">
+</script>
+
+</body>
+</html>
