@@ -3,8 +3,7 @@
 }
 
 body {
-   color: white;
-    background: #0f0c29;
+   padding: 15px;
 }
 .row::after {
   content: "";
