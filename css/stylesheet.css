@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+   color: white;
+    background: #0f0c29;
+}
 .row::after {
   content: "";
   clear: both;
