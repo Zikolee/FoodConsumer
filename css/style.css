@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+   
+    color: white;
+    background: #0f0c29;
+
+    
+}
+.headerhold  {
+    width: 100%;
+    height: 10vh;
+    
+}
+
+.subhold{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerhold h1 {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: white;
+}
+.secondSection {
+    width: 100%;
+    margin-top: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.secondSection input {
+    background: transparent;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 20px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.secondSection button {
+    padding: 17px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.secondSection button:hover {
+    padding: 17px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    border: 2px dotted white;
+}
+.thirdSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    height: 100%;
+    justify-content: center;
+}
+.today {
+    background-color: white;
+    width: 30rem;
+    border-radius: 20px;
+    padding: 10px;
+    color:#21184f;
+    
+    
+}
+.subToday {
+    display: flex;
+    flex-direction: row;
+    
+}
+.info {
+    width: 18rem;
+    padding: 10px;
+}
+.cityName {
+    margin-top: 20px;
+}
+.cityName h2 {
+    font-size: 30px;
+}
+.tempInfo {
+    margin-top: 30px;
+}
+.tempInfo h1 {
+    font-size: 70px;
+}
+
+
+.weatherIcon img {
+    width: 200px;
+    padding-top: 40px;
+}
+
+.rowInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    
+}
+.rowInfo h3 {
+    font-size: 30px;
+}
+
+
+
+.fourthSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+
+
+@media (max-width: 600px) {
+    .secondSection {
+        width: 100%;
+        margin-top: 40px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        
+    }
+    .secondSection input {
+        background: transparent;
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 20px;
+        width: 180px;
+        color: white;
+        font-size: 15px;
+        margin-right: 12px;
+    }
+    .secondSection button {
+        padding: 9px;
+        font-size: 15px;
+        border-radius: 20px;
+    }
+    .secondSection button:hover {
+        padding: 9px;
+        font-size: 15px;
+        border-radius: 20px;
+        background: transparent;
+        color: white;
+        border: 2px dotted white;
+    }
+    .today {
+        background-color: white;
+        width: 17rem;
+        border-radius: 20px;
+        padding: 10px;
+        color:#21184f;
+    }
+    .info {
+        
+        width: 12rem;
+        padding: 6px;
+    }
+    .cityName {
+        margin-top: 7px;
+    }
+    .cityName h2 {
+        font-size: 15px;
+    }
+    .tempInfo {
+        margin-top: 45px;
+    }
+    .tempInfo h1 {
+        font-size: 45px;
+    }
+    .weatherIcon {
+        width: 120px;
+        margin-left: 30px;
+    }
+    .weatherIcon img {
+        width: 120px;
+        
+    }
+    .rowInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+        text-align: center;
+    }
+    .rowInfo h3 {
+        font-size: 15px;
+    }
+    .rowInfo p {
+        font-size: 11px;
+    }
+    .subhold{
+        margin-top: 50px;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 6rem;
+    }
+    .subhold h1 {
+        font-size: 2rem;
+    }
+    .subhold img {
+        width: 60px;
+        height: 60px;
+    }
+}
